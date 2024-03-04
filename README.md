@@ -171,8 +171,21 @@ connection.close()
 
 ## Pulso político en 20 ciudades principales de Ecuador
 
+Visualizacion de los gastos economicos durante el periodo politico de las ciudades del ecuador 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/0eb3c672-9982-4f5a-a824-58ae90d85fdd)
 
+Datos recopiladdos de twitter que se filtraron que son escritos dentro de ecuador y datos que no se escribieron dentro de estas cuidades 
 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/04436345-c1cd-4454-a7a4-ee920ca33b52)
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/707cb98e-454d-4b98-ae09-d8b2fde3bc76)
+
+## Pulso político en provincias de Ecuador
+
+Visualización de las provincias  del Ecuador donde se realiza twists relacionaos con partidos Politicos
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/73ecc318-45a6-4872-8bdb-ccb45da24b0f)
+
+La población de estudio correspondiente a la: “Formacion Institucional”  del numero de personas que participan en eventos politicos 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/783f7ac8-3cb6-4157-9516-627830f5a487)
 
 
 
