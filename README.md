@@ -167,6 +167,9 @@ connection.commit()
 
 connection.close()
 
+# visualizacion de los diferentes casos de studio 
+
+## Pulso político en 20 ciudades principales de Ecuador
 
 
 
