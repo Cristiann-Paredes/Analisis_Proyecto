@@ -7,7 +7,7 @@ Cristian Paredes
 
 Melani Barrera
 
-jhordy Aguas
+Jhordy Aguas
 
 
 ## ARQUITECTURA 
