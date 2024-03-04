@@ -167,9 +167,9 @@ connection.commit()
 
 connection.close()
 
-# visualizacion de los diferentes casos de studio 
+## visualizacion de los diferentes casos de studio 
 
-## Pulso político en 20 ciudades principales de Ecuador
+# Pulso político en 20 ciudades principales de Ecuador
 
 Visualizacion de los gastos economicos durante el periodo politico de las ciudades del ecuador 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/0eb3c672-9982-4f5a-a824-58ae90d85fdd)
@@ -179,16 +179,26 @@ Datos recopiladdos de twitter que se filtraron que son escritos dentro de ecuado
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/04436345-c1cd-4454-a7a4-ee920ca33b52)
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/707cb98e-454d-4b98-ae09-d8b2fde3bc76)
 
-## Pulso político en provincias de Ecuador
+# Pulso político en provincias de Ecuador
 
 Visualización de las provincias  del Ecuador donde se realiza twists relacionaos con partidos Politicos
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/73ecc318-45a6-4872-8bdb-ccb45da24b0f)
 
 La población de estudio correspondiente a la: “Formacion Institucional”  del numero de personas que participan en eventos politicos 
-![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/783f7ac8-3cb6-4157-9516-627830f5a487)
+![image (1)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b748f9ee-2eec-4774-8bb7-8ab429a737ca)
 
+Los #Usados en twitter que los usuarios postearon dentro del ambito politico  
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/9942282b-2ff0-4a4f-a109-67ba5a5d51e6)
 
+Candidatos con mas respuesta del publico
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
+# Eventos o noticias mundiales
+
+Contaminacion de la poblacion en ecuador durante el periodo de covid 19
+
+![image (3)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/c0fa770f-2b43-4f5f-beca-5f3ae635cac7)
+![image (2)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7148b24a-1236-4bf3-b9bc-853d84a5d2cd)
 
 
 
