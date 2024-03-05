@@ -9,6 +9,8 @@ Melani Barrera
 
 Jhordy Aguas
 
+## Viedo de Resultados 
+https://www.youtube.com/watch?v=U3nJzmsgqSY&ab_channel=CristianParedes
 
 # ARQUITECTURA 
 
