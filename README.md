@@ -7,14 +7,21 @@ Cristian Paredes
 
 Melani Barrera
 
-jhordy Aguas
+Jhordy Aguas
 
+## Viedo de Resultados 
+https://www.youtube.com/watch?v=U3nJzmsgqSY&ab_channel=CristianParedes
 
-## ARQUITECTURA 
+# ARQUITECTURA 
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7e7bb816-1d8f-4703-abea-9be3e5540735)
 
-# CODIGO PARA EL PASO DE DATOS CSV A JSON O VICEVERSA
+# Componentes necesarios
+El programa está desarrollado en su totalidad con Python, por lo que se necesita un intérprete de Python 8 o superior. Además, con el administrador de paquetes pip deben descargarse los siguientes módulos:
+
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/cb81f763-e00c-4ba3-b5a2-ec6cc46998d9)
+
+## CODIGO PARA LA TRANSFORMACION DE DATOS CSV - JSON  O DE JSON - CSV
 
 import pandas as pd
 
@@ -24,7 +31,7 @@ def csv_to_json(csv_file, json_file):
 
 df = pd.read_csv(csv_file)
 
-# Conversion
+## Conversion
 df.to_json(json_file, orient='records', lines=True)
 
 csv_filename = 'aquí irá el nombre del archivo dependiendo la temática'
@@ -34,7 +41,7 @@ json_filename = 'el nombre que le queramos poner a nuestro json'
 csv_to_json(csv_filename, json_filename)
 
 
-# CÓDIGO PARA LA LIMPIEZA/FILTRACIÓN DE DATOS
+## CÓDIGO PARA LA LIMPIEZA Y FILTRACIÓN DE DATOS PARA NUESTROS CASOS DE ESTUDIO
 
 Función para limpiar los caracteres no deseados de una cadena y convertirlo de csv a json def limpiar_cadena(cadena):
 
@@ -59,7 +66,7 @@ with open(csvFilePath, encoding='utf-8') as csvf:
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/85035ce2-f978-4ab8-85c3-fd8530f15174)
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/4c2dab92-f265-420a-847e-b4fd0e6457b7)
 
-# Función para convertir un archivo JSON a CSV con limpieza de cadenas
+## Función para convertir un archivo JSON a CSV con limpieza de cadenas
 
 def json_to_csv(jsonFilePath, csvFilePath):
 
@@ -86,14 +93,12 @@ def load_csv_to_mongodb(database_name, collection_name, csv_file):
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b30226c1-1794-4368-98b3-ae287aa72758)
 
-# Paso de datos Json a Couchdb y de Couchdb a SQL Managment Studio
-
-Temática: Eventos y noticias mundiales
-
+## Paso de datos Json a Couchdb y de Couchdb a SQL 
 
 import pandas as pd
 
-Especificamos la ruta del archivo CSV que deseamos leer
+
+-Especificamos la ruta del archivo CSV que deseamos leer
 
 archivo_csv = 'abcnews-date-text.csv'
 
@@ -103,12 +108,12 @@ data = pd.read_csv(archivo_csv)
 
 
 
-Mostramos las primeras filas del DataFrame para verificar la lectura
+- Mostramos las primeras filas del DataFrame para verificar la lectura
 
 data.head()
 
 
-Leemos el archivo CSV
+- Leemos el archivo CSV
 
 archivo_csv = 'abcnews-date-text.csv'
 
@@ -116,7 +121,7 @@ data = pd.read_csv(archivo_csv)
 
 
 
-Transformamos el DataFrame a JSON y guardamos
+- Transformamos el DataFrame a JSON y guardamos
 
 archivo_json = 'abc-news.json'
 
@@ -132,7 +137,7 @@ server = couchdb.Server('http://admin:Cristian@123####:5984/')
 db_name = 'politica'
 
 
-Cargamos y procesamos el archivo JSON línea por línea
+- Cargamos y procesamos el archivo JSON línea por línea
 
 ruta_json = 'abc-news.json'
 
@@ -152,7 +157,7 @@ conn_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};Trusted_C
 connection = pyodbc.connect(conn_str)
 
 
-Inserción de los datos de couchdb en SQL Server
+- Inserción de los datos de couchdb en SQL Server
 
 cursor = connection.cursor()
 
@@ -161,22 +166,84 @@ for doc in db.view('_all_docs', include_docs=True):
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/2e44b3ce-30ae-47a6-bc07-9bf503e865f4)
 
 
-Confirmamos la transacción y cerramos la conexión
+- Confirmamos la transacción y cerramos la conexión
 
 connection.commit()
 
 connection.close()
 
+# visualizacion de los diferentes casos de studio 
+
+## Pulso político en 20 ciudades principales de Ecuador
+
+Visualizacion de los gastos economicos durante el periodo politico de las ciudades del ecuador 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/0eb3c672-9982-4f5a-a824-58ae90d85fdd)
+
+Datos recopiladdos de twitter que se filtraron que son escritos dentro de ecuador y datos que no se escribieron dentro de estas cuidades 
+
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/04436345-c1cd-4454-a7a4-ee920ca33b52)
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/707cb98e-454d-4b98-ae09-d8b2fde3bc76)
+
+## Pulso político en provincias de Ecuador
+
+Visualización de las provincias  del Ecuador donde se realiza twists relacionaos con partidos Politicos
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/73ecc318-45a6-4872-8bdb-ccb45da24b0f)
+
+La población de estudio correspondiente a la: “Formacion Institucional” del numero de personas que participan en eventos politicos 
+![image (1)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b748f9ee-2eec-4774-8bb7-8ab429a737ca)
+
+Los hastag Usados en twitter que los usuarios postearon dentro del ambito politico  
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/9942282b-2ff0-4a4f-a109-67ba5a5d51e6)
+
+Candidatos con mas respuesta del publico
+
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
+
+## Eventos o noticias mundiales
+
+Contaminacion de la poblacion en ecuador durante el periodo de covid 19
+
+![image (3)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/c0fa770f-2b43-4f5f-beca-5f3ae635cac7)
+![image (2)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7148b24a-1236-4bf3-b9bc-853d84a5d2cd)
+
+Datos de lo nuevos casos registrados de infección de la población mundial
+![image (5)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/dd1d1ab5-368b-4a74-813a-244fa5811c7a)
+
+Suma de contaminación por semana de los continentes en periodo de COVID
+![image (4)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/80aa4e15-8edb-47ee-914b-af7b936e6759)
+
+
+## Juegos en línea por países
+
+Suma de numero de unidades de videojuegos a nivel mundial 
+![image (6)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/a88718dc-710b-4f14-aa0b-e0f96c188b12)
+
+Empresas con mayor numero de ventas a nivel mundial 
+![image (7)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/8e94d07c-a803-4395-94cc-c10478dd003b)
+
+Mayor numero de ventas a nivel mundial en las diferentes consolas
+![image (8)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/22eb9b9c-b8fb-48fe-ba33-5b3c41f04f2f)
+
+Categoria de los videojuegos con mayor numero de ventas
+![image (9)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/06d1e4dd-37a7-4b81-bde3-4c852beb4e19)
+
+
+## Artistas mas escuchados de Spotify
+
+Artistas mas escuchados mensualmente en el genero de ingles 
+![image (10)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/314d6316-5c87-4277-b253-982266062326)
+
+Numero de reproducciones a nivel mundial de los últimos meses dentro de la plataforma
+![image (11)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/cde0d330-d1e0-456f-9ab6-ecd7b7174bde)
+
+Numero de reproducciones de los diferentes artistas con mayor escuchas dentro de los paises
+![image (12)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/1149419d-817b-4427-81a4-0a5057d867e7)
+
+Artistas dentro de una lista de reproducción de los bilboard  según sus reproducciones 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7922d269-ddc7-4a9d-99c7-082b6d325f27)
 
 
 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b15f6d66-7c8e-45bd-b27c-1d3a34c71a47)
 
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/2f39518a-683f-49d8-98a2-6f3b1c14373c)
