@@ -223,7 +223,7 @@ Categoria de los videojuegos con mayor numero de ventas
 ![image (9)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/06d1e4dd-37a7-4b81-bde3-4c852beb4e19)
 
 
-#Artistas mas escuchados de Spotify
+# Artistas mas escuchados de Spotify
 
 Artistas mas escuchados mensualmente en el genero de ingles 
 ![image (10)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/314d6316-5c87-4277-b253-982266062326)
@@ -236,6 +236,7 @@ Numero de reproducciones de los diferentes artistas con mayor escuchas dentro de
 
 Artistas dentro de una lista de reproducción de los bilboard  según sus reproducciones 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7922d269-ddc7-4a9d-99c7-082b6d325f27)
+
 
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b15f6d66-7c8e-45bd-b27c-1d3a34c71a47)
