@@ -200,6 +200,12 @@ Contaminacion de la poblacion en ecuador durante el periodo de covid 19
 ![image (3)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/c0fa770f-2b43-4f5f-beca-5f3ae635cac7)
 ![image (2)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7148b24a-1236-4bf3-b9bc-853d84a5d2cd)
 
+Suma de contaminación por semana de los continentes en periodo de COVID
+
+![image (5)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/dd1d1ab5-368b-4a74-813a-244fa5811c7a)
+
+Datos de lo nuevos casos registrados de infección de la población mundial
+![image (4)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/80aa4e15-8edb-47ee-914b-af7b936e6759)
 
 
 
