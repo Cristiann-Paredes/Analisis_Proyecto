@@ -14,7 +14,7 @@ Jhordy Aguas
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7e7bb816-1d8f-4703-abea-9be3e5540735)
 
-# CODIGO PARA EL PASO DE DATOS CSV A JSON O VICEVERSA
+# CODIGO PARA LA TRANSFORMACION DE DATOS CSV - JSON  O DE JSON - CSV
 
 import pandas as pd
 
@@ -34,7 +34,7 @@ json_filename = 'el nombre que le queramos poner a nuestro json'
 csv_to_json(csv_filename, json_filename)
 
 
-# CÓDIGO PARA LA LIMPIEZA/FILTRACIÓN DE DATOS
+# CÓDIGO PARA LA LIMPIEZA Y FILTRACIÓN DE DATOS PARA NUESTROS CASOS DE ESTUDIO
 
 Función para limpiar los caracteres no deseados de una cadena y convertirlo de csv a json def limpiar_cadena(cadena):
 
@@ -86,14 +86,12 @@ def load_csv_to_mongodb(database_name, collection_name, csv_file):
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b30226c1-1794-4368-98b3-ae287aa72758)
 
-# Paso de datos Json a Couchdb y de Couchdb a SQL Managment Studio
-
-Temática: Eventos y noticias mundiales
-
+# Paso de datos Json a Couchdb y de Couchdb a SQL 
 
 import pandas as pd
 
-Especificamos la ruta del archivo CSV que deseamos leer
+
+-Especificamos la ruta del archivo CSV que deseamos leer
 
 archivo_csv = 'abcnews-date-text.csv'
 
@@ -103,12 +101,12 @@ data = pd.read_csv(archivo_csv)
 
 
 
-Mostramos las primeras filas del DataFrame para verificar la lectura
+- Mostramos las primeras filas del DataFrame para verificar la lectura
 
 data.head()
 
 
-Leemos el archivo CSV
+- Leemos el archivo CSV
 
 archivo_csv = 'abcnews-date-text.csv'
 
@@ -116,7 +114,7 @@ data = pd.read_csv(archivo_csv)
 
 
 
-Transformamos el DataFrame a JSON y guardamos
+- Transformamos el DataFrame a JSON y guardamos
 
 archivo_json = 'abc-news.json'
 
@@ -132,7 +130,7 @@ server = couchdb.Server('http://admin:Cristian@123####:5984/')
 db_name = 'politica'
 
 
-Cargamos y procesamos el archivo JSON línea por línea
+- Cargamos y procesamos el archivo JSON línea por línea
 
 ruta_json = 'abc-news.json'
 
@@ -152,7 +150,7 @@ conn_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};Trusted_C
 connection = pyodbc.connect(conn_str)
 
 
-Inserción de los datos de couchdb en SQL Server
+- Inserción de los datos de couchdb en SQL Server
 
 cursor = connection.cursor()
 
@@ -161,7 +159,7 @@ for doc in db.view('_all_docs', include_docs=True):
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/2e44b3ce-30ae-47a6-bc07-9bf503e865f4)
 
 
-Confirmamos la transacción y cerramos la conexión
+- Confirmamos la transacción y cerramos la conexión
 
 connection.commit()
 
