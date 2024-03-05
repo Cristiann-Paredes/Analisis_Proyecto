@@ -10,11 +10,11 @@ Melani Barrera
 Jhordy Aguas
 
 
-## ARQUITECTURA 
+# ARQUITECTURA 
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7e7bb816-1d8f-4703-abea-9be3e5540735)
 
-# CODIGO PARA LA TRANSFORMACION DE DATOS CSV - JSON  O DE JSON - CSV
+## CODIGO PARA LA TRANSFORMACION DE DATOS CSV - JSON  O DE JSON - CSV
 
 import pandas as pd
 
@@ -24,7 +24,7 @@ def csv_to_json(csv_file, json_file):
 
 df = pd.read_csv(csv_file)
 
-# Conversion
+## Conversion
 df.to_json(json_file, orient='records', lines=True)
 
 csv_filename = 'aquí irá el nombre del archivo dependiendo la temática'
@@ -34,7 +34,7 @@ json_filename = 'el nombre que le queramos poner a nuestro json'
 csv_to_json(csv_filename, json_filename)
 
 
-# CÓDIGO PARA LA LIMPIEZA Y FILTRACIÓN DE DATOS PARA NUESTROS CASOS DE ESTUDIO
+## CÓDIGO PARA LA LIMPIEZA Y FILTRACIÓN DE DATOS PARA NUESTROS CASOS DE ESTUDIO
 
 Función para limpiar los caracteres no deseados de una cadena y convertirlo de csv a json def limpiar_cadena(cadena):
 
@@ -59,7 +59,7 @@ with open(csvFilePath, encoding='utf-8') as csvf:
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/85035ce2-f978-4ab8-85c3-fd8530f15174)
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/4c2dab92-f265-420a-847e-b4fd0e6457b7)
 
-# Función para convertir un archivo JSON a CSV con limpieza de cadenas
+## Función para convertir un archivo JSON a CSV con limpieza de cadenas
 
 def json_to_csv(jsonFilePath, csvFilePath):
 
@@ -86,7 +86,7 @@ def load_csv_to_mongodb(database_name, collection_name, csv_file):
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b30226c1-1794-4368-98b3-ae287aa72758)
 
-# Paso de datos Json a Couchdb y de Couchdb a SQL 
+## Paso de datos Json a Couchdb y de Couchdb a SQL 
 
 import pandas as pd
 
@@ -177,7 +177,7 @@ Datos recopiladdos de twitter que se filtraron que son escritos dentro de ecuado
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/04436345-c1cd-4454-a7a4-ee920ca33b52)
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/707cb98e-454d-4b98-ae09-d8b2fde3bc76)
 
-# Pulso político en provincias de Ecuador
+## Pulso político en provincias de Ecuador
 
 Visualización de las provincias  del Ecuador donde se realiza twists relacionaos con partidos Politicos
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/73ecc318-45a6-4872-8bdb-ccb45da24b0f)
@@ -192,7 +192,7 @@ Candidatos con mas respuesta del publico
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
-# Eventos o noticias mundiales
+## Eventos o noticias mundiales
 
 Contaminacion de la poblacion en ecuador durante el periodo de covid 19
 
@@ -206,7 +206,7 @@ Suma de contaminación por semana de los continentes en periodo de COVID
 ![image (4)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/80aa4e15-8edb-47ee-914b-af7b936e6759)
 
 
-# Juegos en línea por países
+## Juegos en línea por países
 
 Suma de numero de unidades de videojuegos a nivel mundial 
 ![image (6)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/a88718dc-710b-4f14-aa0b-e0f96c188b12)
@@ -221,7 +221,7 @@ Categoria de los videojuegos con mayor numero de ventas
 ![image (9)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/06d1e4dd-37a7-4b81-bde3-4c852beb4e19)
 
 
-# Artistas mas escuchados de Spotify
+## Artistas mas escuchados de Spotify
 
 Artistas mas escuchados mensualmente en el genero de ingles 
 ![image (10)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/314d6316-5c87-4277-b253-982266062326)
