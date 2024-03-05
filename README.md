@@ -191,6 +191,7 @@ Los hastag Usados en twitter que los usuarios postearon dentro del ambito politi
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/9942282b-2ff0-4a4f-a109-67ba5a5d51e6)
 
 Candidatos con mas respuesta del publico
+
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
 # Eventos o noticias mundiales
