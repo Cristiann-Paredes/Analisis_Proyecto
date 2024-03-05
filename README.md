@@ -14,6 +14,11 @@ Jhordy Aguas
 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7e7bb816-1d8f-4703-abea-9be3e5540735)
 
+#Componentes necesarios
+El programa está desarrollado en su totalidad con Python, por lo que se necesita un intérprete de Python 8 o superior. Además, con el administrador de paquetes pip deben descargarse los siguientes módulos:
+
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/cb81f763-e00c-4ba3-b5a2-ec6cc46998d9)
+
 ## CODIGO PARA LA TRANSFORMACION DE DATOS CSV - JSON  O DE JSON - CSV
 
 import pandas as pd
