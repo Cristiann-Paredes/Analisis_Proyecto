@@ -191,7 +191,6 @@ Los hastag Usados en twitter que los usuarios postearon dentro del ambito politi
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/9942282b-2ff0-4a4f-a109-67ba5a5d51e6)
 
 Candidatos con mas respuesta del publico
-
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
 # Eventos o noticias mundiales
@@ -206,6 +205,7 @@ Datos de lo nuevos casos registrados de infección de la población mundial
 
 Suma de contaminación por semana de los continentes en periodo de COVID
 ![image (4)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/80aa4e15-8edb-47ee-914b-af7b936e6759)
+
 
 # Juegos en línea por países
 
@@ -222,17 +222,21 @@ Categoria de los videojuegos con mayor numero de ventas
 ![image (9)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/06d1e4dd-37a7-4b81-bde3-4c852beb4e19)
 
 
+#Artistas mas escuchados de Spotify
+
+Artistas mas escuchados mensualmente en el genero de ingles 
+![image (10)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/314d6316-5c87-4277-b253-982266062326)
+
+Numero de reproducciones a nivel mundial de los últimos meses dentro de la plataforma
+![image (11)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/cde0d330-d1e0-456f-9ab6-ecd7b7174bde)
+
+Numero de reproducciones de los diferentes artistas con mayor escuchas dentro de los paises
+![image (12)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/1149419d-817b-4427-81a4-0a5057d867e7)
+
+Artistas dentro de una lista de reproducción de los bilboard  según sus reproducciones 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7922d269-ddc7-4a9d-99c7-082b6d325f27)
 
 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b15f6d66-7c8e-45bd-b27c-1d3a34c71a47)
 
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/2f39518a-683f-49d8-98a2-6f3b1c14373c)
