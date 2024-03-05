@@ -200,12 +200,35 @@ Contaminacion de la poblacion en ecuador durante el periodo de covid 19
 ![image (3)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/c0fa770f-2b43-4f5f-beca-5f3ae635cac7)
 ![image (2)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/7148b24a-1236-4bf3-b9bc-853d84a5d2cd)
 
-Suma de contaminación por semana de los continentes en periodo de COVID
-
+Datos de lo nuevos casos registrados de infección de la población mundial
 ![image (5)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/dd1d1ab5-368b-4a74-813a-244fa5811c7a)
 
-Datos de lo nuevos casos registrados de infección de la población mundial
+Suma de contaminación por semana de los continentes en periodo de COVID
 ![image (4)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/80aa4e15-8edb-47ee-914b-af7b936e6759)
+
+# Juegos en línea por países
+
+Suma de numero de unidades de videojuegos a nivel mundial 
+![image (6)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/a88718dc-710b-4f14-aa0b-e0f96c188b12)
+
+Empresas con mayor numero de ventas a nivel mundial 
+![image (7)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/8e94d07c-a803-4395-94cc-c10478dd003b)
+
+Mayor numero de ventas a nivel mundial en las diferentes consolas
+![image (8)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/22eb9b9c-b8fb-48fe-ba33-5b3c41f04f2f)
+
+Categoria de los videojuegos con mayor numero de ventas
+![image (9)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/06d1e4dd-37a7-4b81-bde3-4c852beb4e19)
+
+
+
+
+
+
+
+
+
+
 
 
 
