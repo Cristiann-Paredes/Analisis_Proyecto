@@ -165,9 +165,9 @@ connection.commit()
 
 connection.close()
 
-## visualizacion de los diferentes casos de studio 
+# visualizacion de los diferentes casos de studio 
 
-# Pulso político en 20 ciudades principales de Ecuador
+## Pulso político en 20 ciudades principales de Ecuador
 
 Visualizacion de los gastos economicos durante el periodo politico de las ciudades del ecuador 
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/0eb3c672-9982-4f5a-a824-58ae90d85fdd)
