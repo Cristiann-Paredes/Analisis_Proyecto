@@ -184,17 +184,15 @@ Datos recopiladdos de twitter que se filtraron que son escritos dentro de ecuado
 Visualización de las provincias  del Ecuador donde se realiza twists relacionaos con partidos Politicos
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/73ecc318-45a6-4872-8bdb-ccb45da24b0f)
 
-La población de estudio correspondiente a la: “Formacion Institucional”  del numero de personas que participan en eventos politicos 
+La población de estudio correspondiente a la: “Formacion Institucional” del numero de personas que participan en eventos politicos 
 ![image (1)](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/b748f9ee-2eec-4774-8bb7-8ab429a737ca)
-
 
 Los hastag Usados en twitter que los usuarios postearon dentro del ambito politico  
 ![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/9942282b-2ff0-4a4f-a109-67ba5a5d51e6)
 
-
 Candidatos con mas respuesta del publico
-![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
+![image](https://github.com/Cristiann-Paredes/Analisis_Proyecto/assets/117744113/24277b2a-85c7-4c61-839c-22d9371fd92c)
 
 # Eventos o noticias mundiales
 
